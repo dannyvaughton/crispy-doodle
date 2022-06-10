@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@happynxjest/node-lib": ["libs/node-lib/src/index.ts"],
+      "@happynxjest/react-lib": ["libs/react-lib/src/index.ts"],
+      "@happynxjest/workspace-lib": ["libs/workspace-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

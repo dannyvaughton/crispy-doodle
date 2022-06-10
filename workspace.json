@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "nest-app": "apps/nest-app",
+    "node-app": "apps/node-app",
+    "node-lib": "libs/node-lib",
+    "react-app": "apps/react-app",
+    "react-app-e2e": "apps/react-app-e2e",
+    "react-lib": "libs/react-lib",
+    "workspace-lib": "libs/workspace-lib"
+  }
 }
